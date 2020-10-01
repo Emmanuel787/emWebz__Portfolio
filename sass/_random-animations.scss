@@ -10,13 +10,14 @@
     0%{
       width: 0;
       left: 0;
+      border: $tertiary-color;
     }
     50%{
       margin-top: 2em;
       width: 20em;
     }
     100%{
-      border: 30px solid #1d1e20;
+      border: 30px solid #252629;
       margin-top: 0;
       width: 20em;
       left: 25%;
@@ -27,12 +28,13 @@
       0%{
         left: 25%;
         width: 0;
+        border: $tertiary-color;
       }
       50%{
         margin-top: 2em;
       }
       100%{
-        box-shadow: 0 0 0 2em #1d1e20;
+        border: 30px solid #252629;
         margin-top: 0;
         width: 15em;
         left: 25%;
@@ -44,13 +46,14 @@
       0%{
         left: 25%;
         width: 0;
+        border: $tertiary-color;
       }
       50%{
         margin-top: 2em;
         width: 10em;
       }
       100%{
-        box-shadow: 0 0 0 2em #1d1e20;
+        border: 30px solid #252629;
         margin-top: 0;
         width: 10em;
         left: 25%;
@@ -150,17 +153,17 @@
   animation-iteration-count: infinite;
   animation-name: scroll;
   animation-duration: 3s;
-  background-color: $white;
+  background-color: $tertiary-color;
   border-radius: 25%;
   height: 8px;
   width: 3px;
   @include responsive(tab-port){
-    background-color: $white;
+    background-color: $tertiary-color;
   }
 }
 @keyframes scroll {
   0% { opacity: 0; }
-  10% { transform: translateY(0); opacity: 1; }
+  10% { transform: translateY(.2em); opacity: 1; }
   100% { transform: translateY(15px); opacity: 0;}
 }
 

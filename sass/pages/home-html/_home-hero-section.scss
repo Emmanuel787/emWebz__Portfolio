@@ -1,18 +1,19 @@
 //hero-section
 .el-hero-section{
   @include col(4/4); margin-right: 0;
-  background: url(/resources/img/hero/12.jpg) no-repeat center center;
+  background: url(/resources/img/hero/12-3-3.jpg) no-repeat center center;
   background-size: cover;
   height: 100vh;
   z-index: -1;
   overflow: hidden;
   @include responsive(tab-port){
-    background: url(/resources/img/hero/12-tab.jpg) no-repeat center center;
+    background: url(/resources/img/hero/12-3-3.jpg) no-repeat center center;
     background-size: cover;
   }
   @include responsive(phone){
-    background: url(/resources/img/hero/12-mobile.jpg) no-repeat center center;
+    background: url(/resources/img/hero//12-mobile.jpg) no-repeat center center;
     background-size: cover;
+    background-position-x: 9;
   }
 }
 

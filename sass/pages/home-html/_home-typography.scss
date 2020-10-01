@@ -1,6 +1,6 @@
 //hero-section
 .dsb-txt-appear{
-  @include typo(6em, $white, 300);
+  @include typo(7em, $white, 300);
   font-family: $lust;
   font-weight: 700;
   font-style: normal;
@@ -48,7 +48,7 @@
 
 //random-text-code
 .color-change{
-  @include typo(null, $primary-color, 500);
+  @include typo(null, $tertiary-color, 500);
 }
 
 .hmm-ul{
@@ -74,8 +74,10 @@
 }
 
 //portfolio-section
-.b1-project-title{
-  @include typo(2em, $white, 300);
+
+.p1-title{
+  @include typo(3em, $white, 600);
+  margin-top: -4em;
 }
 
 //el-main-footer

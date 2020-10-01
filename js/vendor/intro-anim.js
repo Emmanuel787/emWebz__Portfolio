@@ -38,6 +38,6 @@ $(window).on('load', function () {
   //intro-three:end
 
 
-  tl.to('.dsb-txt-appear', { y: '0%', duration: 1, delay: 3.5, stagger: 0.10 }, "-=1");
+  tl.to('.dsb-txt-appear', { y: '0%', duration: 1, delay: 3.2, stagger: 0.10 }, "-=1");
 
 });

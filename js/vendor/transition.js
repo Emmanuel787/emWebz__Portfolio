@@ -19,7 +19,7 @@ $(document).ready(function () {
     });
 
     tl.to(".loading-screen", {
-      duration: 1,
+      duration: 2,
       height: "100vh",
       bottom: "100%",
       ease: "Expo.easeInOut",

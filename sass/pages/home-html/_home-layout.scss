@@ -22,7 +22,7 @@
   padding: 12em 2em 10em 2em;
   background: #1d1e20;
   overflow: hidden;
-  margin-top: -5em;
+  margin-top: 0;
 }
 
 //el-divider
@@ -43,7 +43,7 @@
   margin-top: -5em;
   @include col(4/4); margin-right: 0;
   height: 100vh;
-  background: #39acd2;
+  background: $tertiary-color;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -9,10 +9,10 @@ function onScrollAnim() {
 
 
   if (docScroll > heroSection) {
-    $('.eb__b1-inner').addClass('eb__b1-anim');
-    $('.eb__b2-inner').addClass('eb__b2-anim');
-    $('.eb__b3-inner').addClass('eb__b3-anim');
-    $('.eb__b4-inner').addClass('eb__b4-anim');
+    // $('.eb__b1-inner').addClass('eb__b1-anim');
+    // $('.eb__b2-inner').addClass('eb__b2-anim');
+    // $('.eb__b3-inner').addClass('eb__b3-anim');
+    // $('.eb__b4-inner').addClass('eb__b4-anim');
   }
 }
 window.addEventListener("scroll", onScrollAnim);
