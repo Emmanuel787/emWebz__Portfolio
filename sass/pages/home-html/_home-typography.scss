@@ -1,7 +1,7 @@
 //hero-section
 .dsb-txt-appear{
-  @include typo(4em, $white, 300);
-  font-family: $ethno;
+  @include typo(6em, $white, 300);
+  font-family: $lust;
   font-weight: 700;
   font-style: normal;
   line-height: 1.1em;
@@ -38,12 +38,12 @@
 //header
 .el-brand{
   @include typo(2em, $white, 700);
-  font-family: $hs-title-font;
+  font-family: $neuro;
 }
 //first-section
 .efs-txt{
   @include typo(3em, $white, 400);
-  font-family: $hs-title-font;
+  font-family: $neuro;
 }
 
 //random-text-code
@@ -63,14 +63,14 @@
     text-align: center;
     @include typo(2em, $white, 900);
     margin-top: .7em;
-    font-family: $hs-title-font;
+    font-family: $neuro;
   }
 }
 
 //hidden-menu
 .hmm-brandz{
   @include typo(3em, $white, 600);
-  font-family: $hs-title-font;
+  font-family: $neuro;
 }
 
 //portfolio-section
@@ -81,7 +81,7 @@
 //el-main-footer
 .emf-txt{
   @include typo(3em, $white, 300);
-  font-family: $hs-title-font;
+  font-family: $neuro;
   @include responsive(phone){
     @include typo(2em, $white, 300);
   }

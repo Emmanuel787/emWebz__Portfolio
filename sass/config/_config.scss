@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
-@import url("https://use.typekit.net/fhb7qld.css");
+  @import url("https://use.typekit.net/fhb7qld.css");
 
 //fonts
-$aviano: aviano-serif, serif;
-$ethno: sofachrome, sans-serif;
-$hs-title-font: neuropol-nova, sans-serif;
-$title-font: 'Source Code Pro', monospace;
-$content-font: 'Roboto', sans-serif;
+// $lust: changeling-neo, sans-serif;
+// $lust: changeling-neo-stencil, sans-serif;
+$lust: changeling-neo-inline, sans-serif;
 
+$content-font: quatro, sans-serif;
+$neuro: neuropol-nova, sans-serif;
 //font-base
 $em-base: 62.5%;
 //font-base responsive

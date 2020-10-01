@@ -18,19 +18,11 @@
 //first-section
 .el-first-section{
   @include col(4/4); margin-right: 0;
-  min-height: 100vh;
-  position: relative;
-  margin-top: 0;
-  z-index: 100;
-}
-
-//portfolio-section
-.el-portfolio-section{
-  @include col(4/4); margin-right: 0;
-  padding: 7em 2em 10em 2em;
+  clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 93%);
+  padding: 12em 2em 10em 2em;
   background: #1d1e20;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
   overflow: hidden;
+  margin-top: -5em;
 }
 
 //el-divider
@@ -46,11 +38,12 @@
 
 //el-main-footer
 .el-main-footer{
-  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  // clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(52% 5%, 100% 0, 100% 86%, 92% 100%, 25% 100%, 0 100%, 0 9%);
   margin-top: -5em;
   @include col(4/4); margin-right: 0;
   height: 100vh;
-  background: $secondary-color;
+  background: #39acd2;
   display: flex;
   align-items: center;
   justify-content: center;

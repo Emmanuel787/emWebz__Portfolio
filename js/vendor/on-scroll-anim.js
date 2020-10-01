@@ -13,15 +13,6 @@ function onScrollAnim() {
     $('.eb__b2-inner').addClass('eb__b2-anim');
     $('.eb__b3-inner').addClass('eb__b3-anim');
     $('.eb__b4-inner').addClass('eb__b4-anim');
-    // TweenMax.to(".eb__b1", 1, { y: 0, opacity: 1});
-    // TweenMax.to(".eb__b2", 2, { y: 0, opacity: 1});
-    // TweenMax.to(".eb__b3", 4, { y: 0, opacity: 1});
-    // TweenMax.to(".eb__b4", 6, { y: 0, opacity: 1});
-  } else{
-    // TweenMax.to(".eb__b1", 1, { y: 70, opacity: 0});
-    // TweenMax.to(".eb__b2", 2, { y: 70, opacity: 0});
-    // TweenMax.to(".eb__b3", 3, { y: 70, opacity: 0});
-    // TweenMax.to(".eb__b4", 4, { y: 70, opacity: 0});
   }
 }
 window.addEventListener("scroll", onScrollAnim);

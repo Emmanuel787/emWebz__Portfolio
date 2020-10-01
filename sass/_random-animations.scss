@@ -16,7 +16,7 @@
       width: 20em;
     }
     100%{
-      box-shadow: 0 0 0 2em #1d1e20;
+      border: 30px solid #1d1e20;
       margin-top: 0;
       width: 20em;
       left: 25%;
@@ -98,13 +98,13 @@
 
   @keyframes efsAnim {
     0%{
-      margin-top: 0;
+      margin-top: 1em;
     }
     50%{
-      margin-top: -1em;
+      margin-top: -5em;
     }
     100%{
-      margin-top: -.5em;
+      margin-top: -4em;
     }
   }
   @include responsive(phone){
