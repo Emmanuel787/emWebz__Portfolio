@@ -183,8 +183,10 @@
   padding: 1em .5em 0 1em;
   right: 0;
   text-align: right;
+  transition: color .3s ease-in-out;
   &:hover{
     cursor: pointer;
+    color: $white;
   }
 }
 

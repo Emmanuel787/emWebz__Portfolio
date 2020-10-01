@@ -138,10 +138,16 @@
     align-items: center;
     justify-content: space-between;
     z-index: 1;
+    @include responsive(tab-port){
+      left: 5em;
+      top: 115%;
+      transform: rotate(-95deg);
+    }
     @include responsive(phone){
       transform: rotate(45deg);
       background: #7fffd404;
       padding: 1em;
+      top: 50%;
       bottom: 0em;
       left: 0;
     }
@@ -166,6 +172,12 @@
           &:hover{
             cursor: pointer;
             color: $tertiary-color;
+          }
+          @include responsive(tab-port){
+            transform: rotate(90deg);
+          }
+          @include responsive(phone){
+            transform: none;
           }
         }
       }
