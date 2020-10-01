@@ -73,6 +73,10 @@
   font-family: $hs-title-font;
 }
 
+//portfolio-section
+.b1-project-title{
+  @include typo(2em, $white, 300);
+}
 
 //el-main-footer
 .emf-txt{

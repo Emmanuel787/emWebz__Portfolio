@@ -190,6 +190,4 @@ $(".emh-mobile-menu-btn-reverse, .page-reverse, .home-reverse").on("click", func
   $(".hidden-mobile-menu").removeClass("mobile-menu-anim");
 });
 
-$('.eb__b1').mouseenter(function(){
-  $(this).addClass('eb__b1-anim');
-});
+
