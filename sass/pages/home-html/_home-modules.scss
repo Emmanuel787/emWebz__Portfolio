@@ -226,27 +226,27 @@
     }
   }
 }
-.eb__b1-anim-reverse{
-  animation: ebB1AnimReverse 1s cubic-bezier(0.19, 1, 0.22, 1) forwards;
-    -moz-animation: ebB1AnimReverse 1s cubic-bezier(0.19, 1, 0.22, 1) forwards;
-      -webkit-animation: ebB1AnimReverse 1s cubic-bezier(0.19, 1, 0.22, 1) forwards;
-        -o-animation: ebB1AnimReverse 1s cubic-bezier(0.19, 1, 0.22, 1) forwards;
-        animation-delay: 0s;
-  @keyframes ebB1AnimReverse {
-    0%{
-      width: 0;
-      right: 100%;
-    }
-    50%{
-      width: 0;
-      right: 100%;
-    }
-    100%{
-      width: 100%;
-      right: 0;
-    }
-  }
-}
+// .eb__b1-anim-reverse{
+//   animation: ebB1AnimReverse 1s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+//     -moz-animation: ebB1AnimReverse 1s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+//       -webkit-animation: ebB1AnimReverse 1s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+//         -o-animation: ebB1AnimReverse 1s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+//         animation-delay: 0s;
+//   @keyframes ebB1AnimReverse {
+//     0%{
+//       width: 0;
+//       right: 100%;
+//     }
+//     50%{
+//       width: 0;
+//       right: 100%;
+//     }
+//     100%{
+//       width: 100%;
+//       right: 0;
+//     }
+//   }
+// }
 
 .eb__b2{
   background: url(/resources/img/projectz/girl-with-red-hat-Z6SXt1v5tP8-unsplash.jpg) no-repeat center center;
@@ -287,14 +287,77 @@
 }
 
 .eb__b3{
-  // background: #1e2229;
   background: url(/resources/img/projectz/xps-oJEe7gWwWlo-unsplash.jpg) no-repeat center center;
   background-size: cover;
+  position: relative;
+  .eb__b3-inner{
+    width: 100%;
+    height: 100%;
+    background: #1e2229;
+    position: absolute;
+    top: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
+.eb__b3-anim{
+  animation: ebB3Anim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: ebB3Anim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: ebB3Anim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: ebB3Anim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: 1s;
+
+  @keyframes ebB3Anim {
+    0%{
+      width: 100%;
+      left: 0;
+    }
+    50%{
+      width: 100%;
+      left: 0;
+    }
+    100%{
+      width: 0;
+      left: 100%;
+    }
+  }
+}
+
 .eb__b4{
-  // background: #3f485a;
   background: url(/resources/img//projectz/p4.jpg) no-repeat center center;
   background-size: cover;
   position: relative;
-  // z-index: -1;
+  .eb__b4-inner{
+    width: 100%;
+    height: 100%;
+    background: #3f485a;
+    position: absolute;
+    top: 0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.eb__b4-anim{
+  animation: ebB4Anim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: ebB4Anim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: ebB4Anim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: ebB4Anim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: 1.5s;
+
+  @keyframes ebB4Anim {
+    0%{
+      width: 100%;
+      right: 0;
+    }
+    50%{
+      width: 100%;
+      right: 0;
+    }
+    100%{
+      width: 0;
+      right: 100%;
+    }
+  }
 }

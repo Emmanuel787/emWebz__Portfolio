@@ -5,12 +5,14 @@ function onScrollAnim() {
 
   var docScroll = $(document).scrollTop(),
 
-  heroSection = $(".el-hero-section").offset().top + 5;
+  heroSection = $(".el-hero-section").offset().top / 2;
 
 
   if (docScroll > heroSection) {
     $('.eb__b1-inner').addClass('eb__b1-anim');
     $('.eb__b2-inner').addClass('eb__b2-anim');
+    $('.eb__b3-inner').addClass('eb__b3-anim');
+    $('.eb__b4-inner').addClass('eb__b4-anim');
     // TweenMax.to(".eb__b1", 1, { y: 0, opacity: 1});
     // TweenMax.to(".eb__b2", 2, { y: 0, opacity: 1});
     // TweenMax.to(".eb__b3", 4, { y: 0, opacity: 1});
@@ -25,9 +27,9 @@ function onScrollAnim() {
 window.addEventListener("scroll", onScrollAnim);
 
 //Reverse same effect when hovering over projectz box
-$('.eb__b1').mouseenter(function(){
-  $('.eb__b1-inner').addClass('eb__b1-anim-reverse');
-});
-$('.eb__b1').mouseleave(function(){
-  $('.eb__b1-inner').removeClass('eb__b1-anim-reverse');
-});
+// $('.eb__b1').mouseenter(function(){
+//   $('.eb__b1-inner').addClass('eb__b1-anim-reverse');
+// });
+// $('.eb__b1').mouseleave(function(){
+//   $('.eb__b1-inner').removeClass('eb__b1-anim-reverse');
+// });
