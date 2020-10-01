@@ -18,7 +18,7 @@
 //first-section
 .el-first-section{
   @include col(4/4); margin-right: 0;
-  clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 93%);
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
   padding: 12em 2em 10em 2em;
   background: #1d1e20;
   overflow: hidden;

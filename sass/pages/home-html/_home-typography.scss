@@ -6,13 +6,13 @@
   font-style: normal;
   line-height: 1.1em;
   @include responsive(tab-land){
-    @include typo(3.5em, $white, 700);
+    @include typo(5em, $white, 700);
   }
   @include responsive(tab-port){
-    @include typo(2.5em, $white, 700);
+    @include typo(4em, $white, 700);
   }
   @include responsive(phone){
-    @include typo(1.5em, $white, 700);
+    @include typo(2.5em, $white, 700);
   }
 }
 
