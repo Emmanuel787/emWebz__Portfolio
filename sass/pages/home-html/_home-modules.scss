@@ -180,8 +180,8 @@
   margin-bottom: 2.5em;
   position: relative;
   z-index: -1;
-  // transform: translateY(30%);
-  // opacity: 0;
+  transform: translateY(30%);
+  opacity: 0;
   @include responsive(tab-land){
     min-height: 25em;
   }
@@ -198,10 +198,6 @@
   background: url(/resources/img/projectz/apothecary-87-PxEj7UpS6So-unsplash.jpg) no-repeat center center;
   background-size: cover;
   position: relative;
-  transform: scale(1);
-  &:hover{
-    transform: scale(1.2);
-  }
 }
 // .eb__b1-anim{
 //   animation: ebB1Anim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
@@ -212,10 +208,8 @@
 
 //   @keyframes ebB1Anim {
 //     0%{
-//       transform: scale(1);
 //     }
 //     100%{
-//       transform: scale(1.2);
 //     }
 //   }
 // }
