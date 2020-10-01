@@ -45,11 +45,11 @@
 
 .b-clip-art-design-box{
   @include col(4/4); margin-right: 0;
-clip-path: polygon(0 88%, 100% 56%, 100% 100%, 0 100%);
+  clip-path: polygon(0 88%, 100% 56%, 100% 100%, 0 100%);
   position: absolute;
   height: 10em;
   top: -9em; left: 0;
-  background: $secondary-color;
+  background: #1d1e20;
   // z-index: 50;
   @include responsive(tab-land){
     top: -10em;
