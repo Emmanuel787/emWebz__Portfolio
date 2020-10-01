@@ -73,3 +73,12 @@
   font-family: $hs-title-font;
 }
 
+
+//el-main-footer
+.emf-txt{
+  @include typo(3em, $white, 300);
+  font-family: $hs-title-font;
+  @include responsive(phone){
+    @include typo(2em, $white, 300);
+  }
+}

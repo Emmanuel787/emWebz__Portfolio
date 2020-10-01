@@ -18,17 +18,40 @@
 //first-section
 .el-first-section{
   @include col(4/4); margin-right: 0;
-  background: $secondary-color;
   min-height: 100vh;
   position: relative;
   margin-top: 0;
-  z-index: 10;
+  z-index: 100;
 }
 
 //portfolio-section
 .el-portfolio-section{
   @include col(4/4); margin-right: 0;
-  min-height: 100vh;
-  padding: 7em 2em;
+  padding: 7em 2em 10em 2em;
   background: #1d1e20;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
+  overflow: hidden;
+}
+
+//el-divider
+.el-divider{
+  @include col(4/4); margin-right: 0;
+  height: 110vh;
+  background: url(/resources/img/projectz/xps-oJEe7gWwWlo-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  margin-top: -5em;
+}
+
+//el-main-footer
+.el-main-footer{
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  margin-top: -5em;
+  @include col(4/4); margin-right: 0;
+  height: 100vh;
+  background: $secondary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

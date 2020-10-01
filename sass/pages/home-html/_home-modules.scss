@@ -178,16 +178,48 @@
   background-color: $white;
   min-height: 30em;
   margin-bottom: 2.5em;
-  transform: translateY(70%);
-  opacity: 0;
+  position: relative;
+  z-index: -1;
+  // transform: translateY(30%);
+  // opacity: 0;
+  @include responsive(tab-land){
+    min-height: 25em;
+  }
+  @include responsive(tab-port){
+    min-height: 20em;
+  }
+  @include responsive(phone){
+    @include stack();
+  }
 }
 
 .eb__b1{
   // background: #212225;
   background: url(/resources/img/projectz/apothecary-87-PxEj7UpS6So-unsplash.jpg) no-repeat center center;
   background-size: cover;
-
+  position: relative;
+  transform: scale(1);
+  &:hover{
+    transform: scale(1.2);
+  }
 }
+// .eb__b1-anim{
+//   animation: ebB1Anim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+//     -moz-animation: ebB1Anim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+//       -webkit-animation: ebB1Anim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+//         -o-animation: ebB1Anim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+//   // animation-delay: 4s;
+
+//   @keyframes ebB1Anim {
+//     0%{
+//       transform: scale(1);
+//     }
+//     100%{
+//       transform: scale(1.2);
+//     }
+//   }
+// }
+
 .eb__b2{
   // background: #42444b;
   background: url(/resources/img/projectz/girl-with-red-hat-Z6SXt1v5tP8-unsplash.jpg) no-repeat center center;
@@ -202,4 +234,6 @@
   // background: #3f485a;
   background: url(/resources/img//projectz/p4.jpg) no-repeat center center;
   background-size: cover;
+  position: relative;
+  // z-index: -1;
 }
