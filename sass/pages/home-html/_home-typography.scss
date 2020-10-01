@@ -1,0 +1,75 @@
+//hero-section
+.dsb-txt-appear{
+  @include typo(4em, $white, 300);
+  font-family: $ethno;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.1em;
+  @include responsive(tab-land){
+    @include typo(3.5em, $white, 700);
+  }
+  @include responsive(tab-port){
+    @include typo(2.5em, $white, 700);
+  }
+  @include responsive(phone){
+    @include typo(1.5em, $white, 700);
+  }
+}
+
+.ehs-tagline{
+  @include typo(1em, $white, 400);
+  margin-left: 35em;
+  @include responsive(tab-land){
+    margin-left: 22em;
+    margin-top: 14em;
+  }
+  @include responsive(tab-port){
+    margin-left: 9em;
+    margin-top: 14em;
+  }
+  @include responsive(phone){
+    @include typo(.9em, $white, 300);
+    margin-left: -3.9em;
+    left: 0;
+    margin-top: 15em;
+    transform: rotate(90deg);
+  }
+}
+//header
+.el-brand{
+  @include typo(2em, $white, 700);
+  font-family: $hs-title-font;
+}
+//first-section
+.efs-txt{
+  @include typo(3em, $white, 400);
+  font-family: $hs-title-font;
+}
+
+//random-text-code
+.color-change{
+  @include typo(null, $primary-color, 500);
+}
+
+.hmm-ul{
+  padding: 1em;
+  position: absolute;
+  width: 90%;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  .hmm-li{
+    text-align: center;
+    @include typo(2em, $white, 900);
+    margin-top: .7em;
+    font-family: $hs-title-font;
+  }
+}
+
+//hidden-menu
+.hmm-brandz{
+  @include typo(3em, $white, 600);
+  font-family: $hs-title-font;
+}
+

@@ -1,0 +1,6 @@
+# www.robotstxt.org/
+Sitemap: SITE URL HERE//
+
+# Allow crawling of all content
+User-agent: *
+Disallow:

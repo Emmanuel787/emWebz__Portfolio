@@ -1,0 +1,11 @@
+//404.html button
+@mixin backToSiteBtn($bg: null, $border: null, $padd: null){
+  background: $bg;
+  border: $border;
+  padding: $padd;
+}
+@mixin defBtn($bg: null, $border: null, $padd: null){
+  background: $bg;
+  border: $border;
+  padding: $padd;
+}

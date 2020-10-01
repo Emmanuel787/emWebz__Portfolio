@@ -1,0 +1,285 @@
+//diamond-shape-box
+.dsb-anim{
+  animation: dsbAnim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: dsbAnim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: dsbAnim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: dsbAnim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: 4s;
+
+  @keyframes dsbAnim {
+    0%{
+      width: 0;
+      left: 0;
+    }
+    50%{
+      margin-top: 2em;
+      width: 20em;
+    }
+    100%{
+      box-shadow: 0 0 0 2em #1d1e20;
+      margin-top: 0;
+      width: 20em;
+      left: 25%;
+    }
+  }
+  @include responsive(tab-port){
+    @keyframes dsbAnim {
+      0%{
+        left: 25%;
+        width: 0;
+      }
+      50%{
+        margin-top: 2em;
+      }
+      100%{
+        box-shadow: 0 0 0 2em #1d1e20;
+        margin-top: 0;
+        width: 15em;
+        left: 25%;
+      }
+    }
+  }
+  @include responsive(phone){
+    @keyframes dsbAnim {
+      0%{
+        left: 25%;
+        width: 0;
+      }
+      50%{
+        margin-top: 2em;
+        width: 10em;
+      }
+      100%{
+        box-shadow: 0 0 0 2em #1d1e20;
+        margin-top: 0;
+        width: 10em;
+        left: 25%;
+      }
+    }
+  }
+}
+
+//left-box
+.ehs-left-box-anim{
+  animation: ehsLbAnim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: ehsLbAnim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: ehsLbAnim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: ehsLbAnim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: 3s;
+
+  @keyframes ehsLbAnim {
+    0%{
+      opacity: 0;
+      width: 0;
+      left: 0;
+    }
+    50%{
+      background: url(/resources/img/test-left-bg.png) no-repeat center center;
+      background-size: cover;
+      width: 0;
+      left: 0;
+    }
+    100%{
+      margin-top: 0;
+      width: 50%;
+      opacity: 1;
+      left: 0;
+    }
+  }
+}
+
+//first-section
+.efs-anim{
+  animation: efsAnim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: efsAnim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: efsAnim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: efsAnim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: 4s;
+
+  @keyframes efsAnim {
+    0%{
+      margin-top: 0;
+    }
+    50%{
+      margin-top: -1em;
+    }
+    100%{
+      margin-top: -.5em;
+    }
+  }
+  @include responsive(phone){
+    @keyframes efsAnim {
+      0%{
+        margin-top: 0em;
+      }
+      100%{
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+//scroll-down-mousey
+.scroll-downs {
+  position: absolute;
+  bottom: 2.5em;
+  left: 0;
+  margin: auto;
+  height: 55px;
+  width:34px;
+
+  @include responsive(phone){
+    left: -1.2em;
+  }
+}
+.mousey {
+  border: 2px solid #363636;
+  box-sizing: content-box;
+  border-radius: 25px;
+  padding: 10px 15px;
+  opacity: 0.75;
+  height: 30px;
+  width: 2px;
+
+  @include responsive(tab-port){
+    border: 2px solid $white;
+  }
+}
+.scroller {
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+  animation-duration: 3s;
+  background-color: $white;
+  border-radius: 25%;
+  height: 10px;
+  width: 3px;
+  @include responsive(tab-port){
+    background-color: $white;
+  }
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+// mobile-menu-button
+.mb-line-one-anim{
+  animation: mbLineOneAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: mbLineOneAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: mbLineOneAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: mbLineOneAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  // animation-delay: 4s;
+
+  @keyframes mbLineOneAnim {
+    0%{
+      width: 3em;
+      right: 0;
+    }
+    50%{
+      width: 2em;
+      right: 0;
+    }
+    100%{
+      width: 2em;
+      right: 0;
+    }
+  }
+}
+
+.mb-line-two-anim{
+  animation: mbLineTwoAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: mbLineTwoAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: mbLineTwoAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: mbLineTwoAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  // animation-delay: 4s;
+
+  @keyframes mbLineTwoAnim {
+    0%{
+      width: 2em;
+      left: 0;
+    }
+    50%{
+      width: 3em;
+      left: 0;
+    }
+    100%{
+      width: 3em;
+      left: 0;
+    }
+  }
+}
+
+.mb-line-one-dos-anim{
+  animation: mbLineOneAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: mbLineOneAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: mbLineOneAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: mbLineOneAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  // animation-delay: 4s;
+
+  @keyframes mbLineOneAnim {
+    0%{
+      width: 2em;
+      right: 0;
+    }
+    50%{
+      width: 3em;
+      right: 0;
+    }
+    100%{
+      width: 3em;
+      right: 0;
+    }
+  }
+}
+
+.mb-line-two-uno-anim{
+  animation: mbLineTwoAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: mbLineTwoAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: mbLineTwoAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: mbLineTwoAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  // animation-delay: 4s;
+
+  @keyframes mbLineTwoAnim {
+    0%{
+      width: 3em;
+      left: 0;
+    }
+    50%{
+      width: 2em;
+      left: 0;
+    }
+    100%{
+      width: 2em;
+      left: 0;
+    }
+  }
+}
+
+//random-txt-animations
+.ecb-color-anim{
+  animation: colorChange 40s cubic-bezier(0.19, 1, 0.22, 1) infinite;
+    -moz-animation: colorChange 40s cubic-bezier(0.19, 1, 0.22, 1) infinite;
+      -webkit-animation: colorChange 40s cubic-bezier(0.19, 1, 0.22, 1) infinite;
+        -o-animation: colorChange 40s cubic-bezier(0.19, 1, 0.22, 1) infinite;
+  // animation-delay: 5s;
+
+  @keyframes colorChange {
+    0%{
+      color: #313131;
+    }
+    25%{
+      color: $white;
+    }
+    50%{
+      color: $primary-color;
+    }
+    75%{
+      color: $white;
+    }
+    100%{
+      color: #313131;
+    }
+  }
+}

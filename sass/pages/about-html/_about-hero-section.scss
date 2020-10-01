@@ -1,0 +1,66 @@
+//hero-section
+.a-hero-section{
+  background: url(/resources/img/me-about.jpg) no-repeat center center;
+  background-size: cover;
+  align-items: center;
+  position: relative;
+  margin-left: 5%;
+  margin-top: 5em;
+  height: 100vh;
+  display: flex;
+  width: 0%;
+  @include responsive(phone){
+    height: 80vh;
+  }
+}
+
+.ahs-anim{
+    animation: go-left 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -moz-animation: go-left 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -webkit-animation: go-left 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+          -o-animation: go-left 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    animation-delay: .5s;
+
+    @keyframes go-left {
+      0% {
+        left: 0;
+        width: 0%;
+      }
+      50% {
+        left: 0;
+        width: 90%;
+        margin-left: 8%;
+      }
+      100% {
+        left: 0;
+        width: 90%;
+        margin-left: 5%;
+      }
+    }
+  }
+
+.b-clip-art-design-box{
+  @include col(4/4); margin-right: 0;
+clip-path: polygon(0 88%, 100% 56%, 100% 100%, 0 100%);
+  position: absolute;
+  height: 10em;
+  top: -9em; left: 0;
+  background: $secondary-color;
+  // z-index: 50;
+  @include responsive(tab-land){
+    top: -10em;
+  }
+  @include responsive(tab-land){
+    top: -10em;
+  }
+}
+
+// .ehs-transition-effect-box{
+//   @include col(4/4); margin-right: 0;
+//   height: 100vh;
+//   background: #1616162d;
+//   backdrop-filter: blur(4px);
+//   position: fixed;
+//   top: 0; left: 0;
+//   z-index: 1000;
+// }

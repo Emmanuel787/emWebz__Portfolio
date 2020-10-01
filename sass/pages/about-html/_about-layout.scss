@@ -1,0 +1,39 @@
+//section-uno
+.section-uno{
+  @include col(4/4); margin-right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12em;
+  p{
+    @include typo(2em, $darko, 700);
+  }
+}
+
+//section-dos
+.section-dos{
+  @include col(4/4); margin-right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clear: both;
+
+  p{
+    @include typo(2em, $white, 700);
+  }
+}
+
+//section-tres
+.section-tres{
+  @include col(4/4); margin-right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p{
+    @include typo(2em, $white, 700);
+  }
+}

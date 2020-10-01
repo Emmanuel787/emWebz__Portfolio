@@ -1,0 +1,28 @@
+//bg-changer
+.bg-active{
+  background: $white - 10;
+}
+.bg-active-dos{
+  background: $primary-color;
+}
+.bg-active-tres{
+  background: $darko;
+}
+
+//
+.ahs-il-txt{
+  @include typo(3em, $white, 400);
+  font-family: $aviano;
+  line-height: 1.3em;
+  font-style: normal;
+}
+.smaller-ui-txt{
+  @include typo(4em, $white, 400);
+  font-family: $aviano;
+}
+.small-ui-txt{
+  @include typo(1.5em, $tertiary-color, 300);
+  margin-top: .3em;
+  margin-left: .2em;
+  font-family: $hs-title-font;
+}

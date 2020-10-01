@@ -1,0 +1,20 @@
+//second-section
+.who-am-i-btn{
+  @include defBtn(none, 1px solid #c4c1c1, 1em 2em);
+  @include typo(.8em, #c4c1c1, 300);
+  margin-top: 1.5em;
+  transition: background .3s ease-in-out !important;
+  &:hover{
+    cursor: pointer;
+    background: #32342e;
+    color: $white;
+    border: 1px solid #32342e;
+  }
+  @include responsive(tab-port){
+    @include typo(.8em, #32342e, 300);
+  }
+  @include responsive(phone){
+    width: 90%;
+    margin-bottom: 2em;
+  }
+}

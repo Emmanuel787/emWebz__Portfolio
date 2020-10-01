@@ -1,0 +1,17 @@
+//hero-section
+.ahs-ul{
+  margin-top: 2em;
+  margin-left: .5em;
+.ahs-icon-list{
+  display: inline-block;
+  margin-left: -3em;
+    &:first-child{
+      margin-left: 0;
+    }
+    img{
+      width: 30%;
+    }
+  }
+}
+
+
