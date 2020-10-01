@@ -115,7 +115,7 @@ if (isBreakPoint(768)) {
 }
 if (isBreakPoint(480)) {
   $('.ehs-right-box').removeClass('erb').addClass('rellax');
-  rellax.destroy();
+  // rellax.destroy();
 }
 /*
 Jquery breakpoints:end
