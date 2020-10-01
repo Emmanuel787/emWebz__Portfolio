@@ -5,6 +5,7 @@
   background-size: cover;
   height: 100vh;
   z-index: -1;
+  overflow: hidden;
   @include responsive(tab-port){
     background: url(/resources/img/hero/12-tab.jpg) no-repeat center center;
     background-size: cover;
