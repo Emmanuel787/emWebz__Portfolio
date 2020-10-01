@@ -133,10 +133,10 @@
   }
 }
 .mousey {
-  border: 2px solid #363636;
+  border: 2px solid $white;
   box-sizing: content-box;
   border-radius: 25px;
-  padding: 10px 15px;
+  padding: 5px 10px;
   opacity: 0.75;
   height: 30px;
   width: 2px;
@@ -152,7 +152,7 @@
   animation-duration: 3s;
   background-color: $white;
   border-radius: 25%;
-  height: 10px;
+  height: 8px;
   width: 3px;
   @include responsive(tab-port){
     background-color: $white;

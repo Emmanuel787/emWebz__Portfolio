@@ -1,14 +1,18 @@
 //hero-section
 .a-hero-section{
-  background: url(/resources/img/me-about.jpg) no-repeat center center;
+  background: url(/resources/img/me2.jpg) no-repeat center center;
   background-size: cover;
   align-items: center;
   position: relative;
+  background-position-y: .5em;
   margin-left: 5%;
   margin-top: 5em;
   height: 100vh;
   display: flex;
   width: 0%;
+  @include responsive(tab-land){
+    background-position-y: 0;
+  }
   @include responsive(phone){
     height: 80vh;
   }
