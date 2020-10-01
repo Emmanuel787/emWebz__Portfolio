@@ -37,6 +37,9 @@
 }
 .ed-reinit-barba{
   margin-top: 35em !important;
+  @include responsive(phone){
+    margin-top: 0 !important;
+  }
 }
 
 //el-main-footer
@@ -53,4 +56,7 @@
 
 .ef-reinit-barba{
   margin-top: -45em !important;
+  @include responsive(phone){
+    margin-top: 0 !important;
+  }
 }
