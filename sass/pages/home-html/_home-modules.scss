@@ -233,6 +233,9 @@
 }
 .eb__b1-reinit-barba{
   margin-top: 5em !important;
+  @include responsive(phone){
+    margin-top: 0 !important;
+  }
 }
 
 .eb__b1-anim{
@@ -301,6 +304,9 @@
 }
 .eb__b2-reinit-barba{
   margin-top: 5em !important;
+  @include responsive(phone){
+    margin-top: 0 !important;
+  }
 }
 
 .eb__b3{
@@ -345,6 +351,9 @@
 }
 .eb__b3-reinit-barba{
   margin-top: 5em !important;
+  @include responsive(phone){
+    margin-top: 0 !important;
+  }
 }
 
 .eb__b4{
@@ -390,4 +399,7 @@
 }
 .eb__b4-reinit-barba{
   margin-top: 5em !important;
+  @include responsive(phone){
+    margin-top: 0 !important;
+  }
 }
