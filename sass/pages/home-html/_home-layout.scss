@@ -39,6 +39,7 @@
   margin-top: 35em !important;
   @include responsive(phone){
     margin-top: 0 !important;
+    transform: scale(1.2);
   }
 }
 
