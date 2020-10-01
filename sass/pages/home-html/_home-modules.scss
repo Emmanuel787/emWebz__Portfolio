@@ -219,6 +219,10 @@
     }
   }
 }
+.eb__b1-reinit-barba{
+  margin-top: 5em !important;
+}
+
 .eb__b1-anim{
   animation: ebB1Anim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
     -moz-animation: ebB1Anim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
@@ -251,11 +255,8 @@
   .eb__b2-inner{
     width: 100%;
     height: 100vh;
-    // background: #1d1e20 + 2;
     background: url(/resources/img/projectz/girl-with-red-hat-Z6SXt1v5tP8-unsplash.jpg);
     background-size: cover;
-    // background-color: crimson;
-    // background-blend-mode: overlay;
     position: absolute;
     top: 0; right: 0;
     display: flex;
@@ -286,6 +287,9 @@
     }
   }
 }
+.eb__b2-reinit-barba{
+  margin-top: 5em !important;
+}
 
 .eb__b3{
   position: relative;
@@ -295,7 +299,6 @@
   .eb__b3-inner{
     width: 100%;
     height: 100vh;
-    // background: #1d1e20 + 2;
     background: url(/resources/img/projectz/xps-oJEe7gWwWlo-unsplash.jpg) no-repeat center center;
     background-size: cover;
     position: absolute;
@@ -328,6 +331,9 @@
     }
   }
 }
+.eb__b3-reinit-barba{
+  margin-top: 5em !important;
+}
 
 .eb__b4{
   position: relative;
@@ -337,7 +343,6 @@
   .eb__b4-inner{
     width: 100%;
     height: 100vh;
-    // background: #1d1e20 + 2;
     background: url(/resources/img//projectz/p4.jpg) no-repeat center center;
     background-size: cover;
     position: absolute;
@@ -348,6 +353,7 @@
     margin-top: -.3em;
   }
 }
+
 .eb__b4-anim{
   animation: ebB4Anim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
     -moz-animation: ebB4Anim 4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
@@ -369,4 +375,7 @@
       right: 100%;
     }
   }
+}
+.eb__b4-reinit-barba{
+  margin-top: 5em !important;
 }

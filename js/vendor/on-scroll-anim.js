@@ -5,16 +5,30 @@ function onScrollAnim() {
 
   var docScroll = $(document).scrollTop(),
 
-  heroSection = $(".el-hero-section").offset().top / 2;
+  heroSection = $(".el-hero-section").offset().top + 250;
 
 
   if (docScroll > heroSection) {
-    // $('.eb__b1-inner').addClass('eb__b1-anim');
-    // $('.eb__b2-inner').addClass('eb__b2-anim');
-    // $('.eb__b3-inner').addClass('eb__b3-anim');
-    // $('.eb__b4-inner').addClass('eb__b4-anim');
+    $('.el-main-header').css({
+      "background":"#1f1f1fdb"
+    });
+  } else{
+    $('.el-main-header').css({
+      "background": ""
+    });
   }
+  if (docScroll > heroSection) {
+    $('.el-main-header').css({
+      "background":"#1f1f1fdb"
+    });
+  } else{
+    $('.el-main-header').css({
+      "background": ""
+    });
+  }
+
 }
+
 window.addEventListener("scroll", onScrollAnim);
 
 //Reverse same effect when hovering over projectz box

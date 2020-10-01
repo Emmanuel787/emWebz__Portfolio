@@ -47,8 +47,11 @@ $(document).ready(function () {
             await delay(1000);
             done();
 
+            //divide////////////////////////////////////////////////////////////////////
+
             $(window).scrollTop(0);
 
+            //divide////////////////////////////////////////////////////////////////////
 
           },
 
@@ -56,16 +59,21 @@ $(document).ready(function () {
           async enter(data) {
             contentAnimation();
 
+            //divide////////////////////////////////////////////////////////////////////
 
             $(window).scrollTop(0);
 
+            //divide////////////////////////////////////////////////////////////////////
+
             const tl = gsap.timeline({ defaults: { ease: 'power1.out' } });
 
-            //rellax-re-init:start
+            //divide////////////////////////////////////////////////////////////////////
+
             var rellax = new Rellax(".rellax", {
               center: false,
             });
-            //rellax-re-init:end
+
+            //divide////////////////////////////////////////////////////////////////////
 
             $('.el-hero-section').addClass('ehs-bg-anim');
 
@@ -73,14 +81,14 @@ $(document).ready(function () {
 
             $('.svg-dark').delay(500).fadeOut();
 
-            // $('.svg-dark').delay(500).fadeOut();
 
+            //divide////////////////////////////////////////////////////////////////////
 
-            //hero-center-text:start
             tl.to('.intro-two-title', { y: '0%', duration: 0.7, delay: 1, opacity: 1, stagger: 0.05 });
 
             tl.to('.intro-two-title', { y: '100%', duration: 1, delay: 0.2, opacity: 1, stagger: 0.05 });
-            //hero-center-text:end
+
+            //divide////////////////////////////////////////////////////////////////////
 
             //intro-one:start
             tl.to('.intro-one', {
@@ -106,6 +114,8 @@ $(document).ready(function () {
               delay: 0,
             }, '-=.9');
             //intro-three:end
+
+            //divide////////////////////////////////////////////////////////////////////
 
             function bgChanger() {
 
@@ -138,7 +148,11 @@ $(document).ready(function () {
             }
             window.addEventListener("scroll", bgChanger);
 
+            //divide////////////////////////////////////////////////////////////////////
+
             tl.to('.dsb-txt-appear', { y: '0%', duration: 0.7, delay: 3, stagger: 0.10 }, "-=1");
+
+            //divide////////////////////////////////////////////////////////////////////
 
             $(".emh-mobile-menu-btn").on("click", function () {
               $("body").addClass("mobile-menu-body-anim");
@@ -162,6 +176,15 @@ $(document).ready(function () {
               $(".hidden-mobile-menu").removeClass("mobile-menu-anim");
             });
 
+            //divide////////////////////////////////////////////////////////////////////
+            $('.el-divider').addClass('ed-reinit-barba');
+
+            $('.el-main-footer').addClass('ef-reinit-barba');
+
+            $('.eb__b1-inner').addClass('eb__b1-reinit-barba');
+            $('.eb__b2-inner').addClass('eb__b2-reinit-barba');
+            $('.eb__b3-inner').addClass('eb__b3-reinit-barba');
+            $('.eb__b4-inner').addClass('eb__b4-reinit-barba');
           },
 
 

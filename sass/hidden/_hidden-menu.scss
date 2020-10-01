@@ -173,6 +173,22 @@
   }
 }
 
+.arrow-up-box{
+  font-size: 2em;
+  color: $tertiary-color;
+  width: auto;
+  z-index: -1;
+  position: fixed;
+  bottom: 0;
+  padding: 1em .5em 0 1em;
+  right: 0;
+  text-align: right;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
 .invisible-annoying-error-killer{
   display: none;
 }
+
