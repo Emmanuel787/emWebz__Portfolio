@@ -1,8 +1,7 @@
 .hidden-mobile-menu{
   width: 0%;
-  height: 100vh;
+  top: 0;  right: 0; bottom: 0;
   position: fixed;
-  top: 0; right: 0%;
   background: #191a1d;
   z-index: 2000;
   display: flex;

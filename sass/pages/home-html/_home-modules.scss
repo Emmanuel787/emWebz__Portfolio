@@ -47,6 +47,9 @@
       // background: none;
       width: 0;
     }
+    @include responsive(phone){
+      min-height: 38em;
+    }
 
     .diamond-shape-box{
       min-width: 0;

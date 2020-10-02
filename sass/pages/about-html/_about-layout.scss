@@ -1,7 +1,6 @@
 //section-uno
 .section-uno{
   @include col(4/4); margin-right: 0;
-  // height: 100vh;
   min-height: 44em;
   display: flex;
   align-items: center;
@@ -15,7 +14,6 @@
 //section-dos
 .section-dos{
   @include col(4/4); margin-right: 0;
-  // height: 100vh;
   min-height: 44em;
   display: flex;
   align-items: center;
@@ -30,7 +28,6 @@
 //section-tres
 .section-tres{
   @include col(4/4); margin-right: 0;
-  // height: 100vh;
   min-height: 44em;
   display: flex;
   align-items: center;
