@@ -3,7 +3,7 @@
   @include col(4/4); margin-right: 0;
   background: url(/resources/img/hero/12-3-3.jpg) no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  top: 0; left: 0; right: 0; bottom: 0;
   z-index: -1;
   overflow: hidden;
   @include responsive(tab-land){

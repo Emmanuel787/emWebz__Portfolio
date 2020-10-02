@@ -28,12 +28,12 @@
 //el-divider
 .el-divider{
   @include col(4/4); margin-right: 0;
-  height: 110vh;
+  height: 60em;
   background: url(/resources/img/projectz/divider.jpg) no-repeat center center;
   background-size: cover;
   position: relative;
   z-index: -1;
-  margin-top: -5em;
+  margin-top: -20em;
 }
 .ed-reinit-barba{
   margin-top: 35em !important;
@@ -48,7 +48,7 @@
   clip-path: polygon(51% 3%, 100% 0, 100% 88%, 75% 100%, 0 100%, 0% 60%, 0 7%);
   margin-top: -5em;
   @include col(4/4); margin-right: 0;
-  height: 100vh;
+  height: 40em;
   background: $tertiary-color;
   display: flex;
   align-items: center;
