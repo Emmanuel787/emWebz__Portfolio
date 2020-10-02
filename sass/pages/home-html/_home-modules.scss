@@ -55,8 +55,12 @@
       position: absolute;
       top: 27%; left: 25%;
       margin-top: .6em;
+      margin-left: 5em;
       z-index: 10;
       transform: rotate(45deg);
+      @include responsive(tab-land){
+        margin-left: 0;
+      }
       @include responsive(tab-port){
         min-height: 15em;
         background: $secondary-color;
@@ -83,7 +87,7 @@
       transition: margin .3s ease-in-out;
       transform: translate(-50%, -50%);
       margin-top: -.2em;
-      margin-left: 2em;
+      margin-left: 4em;
       z-index: 11;
 
       @include responsive(tab-land){
