@@ -9,3 +9,8 @@
   border: $border;
   padding: $padd;
 }
+@mixin daBtn($bg: null, $border: null, $padd: null){
+  background: $bg;
+  border: $border;
+  padding: $padd;
+}

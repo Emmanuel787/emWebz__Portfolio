@@ -28,6 +28,23 @@
   }
 }
 
+//el-first-section-sl
+.portfolio-section{
+  @include col(4/4); margin-right: 0;
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+  padding: 10em 0 7em 0;
+  background: #202123;
+  overflow: hidden;
+  margin-top: 0;
+  @include responsive(phone){
+    margin-top: -3.5em;
+  }
+  .projectz-container{
+    @include col(4/4);
+    // background: #252629;
+  }
+}
+
 //el-divider
 .el-divider{
   @include col(4/4); margin-right: 0;

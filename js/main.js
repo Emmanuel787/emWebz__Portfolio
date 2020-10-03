@@ -166,8 +166,6 @@ if !E=doThisHere():end
 
 ////////////////////////////////////////////////@2020
 
-
-
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
 
 $(".emh-mobile-menu-btn").on("click", function () {
@@ -190,5 +188,3 @@ $(".emh-mobile-menu-btn-reverse, .page-reverse, .home-reverse").on("click", func
   $("body").removeClass("mobile-menu-body-anim");
   $(".hidden-mobile-menu").removeClass("mobile-menu-anim");
 });
-
-

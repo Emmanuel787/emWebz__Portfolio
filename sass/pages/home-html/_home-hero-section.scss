@@ -1,7 +1,7 @@
 //hero-section
 .el-hero-section{
   @include col(4/4); margin-right: 0;
-  background: url(/resources/img/hero/12-3-3.jpg) no-repeat center center;
+  background: url(/resources/img/hero/12-3-3-b.jpg) no-repeat center center;
   background-size: cover;
   z-index: -1;
   overflow: hidden;
@@ -14,7 +14,7 @@
     background-size: cover;
   }
   @include responsive(phone){
-    background: url(/resources/img/hero//12-mobile.jpg) no-repeat center center;
+    background: url(/resources/img/hero/12-mobile.jpg) no-repeat center center;
     background-size: cover;
     background-position-x: 9;
   }

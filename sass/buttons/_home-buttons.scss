@@ -18,3 +18,51 @@
     margin-bottom: 2em;
   }
 }
+//pr1
+.plb-btn{
+  @include daBtn(none, 1px solid $white, 1em 2em);
+  @include typo(.9em, $white, 300);
+  transition: all .3s ease-in-out;
+  font-family: $neuro;
+  &:hover{
+    @include daBtn(none, 1px solid $tertiary-color, 1em 2em);
+    cursor: pointer;
+    @include typo(.9em, $tertiary-color, 300);
+  }
+}
+//pr2
+.ptb-btn{
+  @include daBtn(none, 1px solid $white, 1em 2em);
+  @include typo(.9em, $white, 300);
+  transition: all .3s ease-in-out;
+  font-family: $neuro;
+  &:hover{
+    @include daBtn(none, 1px solid $tertiary-color, 1em 2em);
+    cursor: pointer;
+    @include typo(.9em, $tertiary-color, 300);
+  }
+}
+//pr3
+.p-th-b-btn{
+  @include daBtn(none, 1px solid $white, 1em 2em);
+  @include typo(.9em, $white, 300);
+  transition: all .3s ease-in-out;
+  font-family: $neuro;
+  &:hover{
+    @include daBtn(none, 1px solid $tertiary-color, 1em 2em);
+    cursor: pointer;
+    @include typo(.9em, $tertiary-color, 300);
+  }
+}
+//pr4
+.pfb-btn{
+  @include daBtn(none, 1px solid $white, 1em 2em);
+  @include typo(.9em, $white, 300);
+  transition: all .3s ease-in-out;
+  font-family: $neuro;
+  &:hover{
+    @include daBtn(none, 1px solid $tertiary-color, 1em 2em);
+    cursor: pointer;
+    @include typo(.9em, $tertiary-color, 300);
+  }
+}

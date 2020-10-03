@@ -1,0 +1,144 @@
+.project-one-box{
+  @include col(4/4); margin-right: 0;
+  overflow: hidden;
+  margin-bottom: 7em;
+
+  .pob-left-box{
+    @include span(1/3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 45em;
+    // background: #1e1f21;
+    padding: 2em;
+  }
+
+  .pob-right-box{
+    @include span(2/3);
+    background: url(/resources/img/projectz/p1.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 45em;
+    position: relative;
+    z-index: -1;
+  }
+}
+
+.project-two-box{
+  @include col(4/4); margin-right: 0;
+  overflow: hidden;
+  margin-bottom: 7em;
+
+  .ptb-left-box{
+    @include span(2/3);
+    background: url(/resources/img/projectz/p2.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 45em;
+    position: relative;
+    z-index: -1;
+  }
+
+  .ptb-right-box{
+    @include span(1/3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 45em;
+    // background: #1e1f21;
+    padding: 2em;
+  }
+}
+
+.project-three-box{
+  @include col(4/4); margin-right: 0;
+  overflow: hidden;
+  margin-bottom: 7em;
+
+  .p-th-b-left-box{
+    @include span(1/3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 45em;
+    // background: #1e1f21;
+    padding: 2em;
+  }
+  .p-th-b-right-box{
+    @include span(2/3);
+    background: url(/resources/img/projectz/p3.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 45em;
+    position: relative;
+    z-index: -1;
+  }
+}
+
+.project-four-box{
+  @include col(4/4); margin-right: 0;
+  overflow: hidden;
+  margin-bottom: 7em;
+
+  .pfb-left-box{
+    @include span(2/3);
+    background: url(/resources/img/projectz/p4.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 45em;
+    position: relative;
+    z-index: -1;
+  }
+
+  .pfb-right-box{
+    @include span(1/3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 45em;
+    // background: #1e1f21;
+    padding: 2em;
+  }
+}
+
+//portfolio-section
+//pr1
+.plb-title{
+  @include typo(2em, $white, 700);
+  font-family: $lust-1;
+  margin-bottom: .5em;
+}
+
+.plb-txt{
+  @include typo(.9em,$white, 300);
+  margin-bottom: 2em;
+}
+//pr2
+.ptb-title{
+  @include typo(2em, $white, 700);
+  font-family: $lust-1;
+  margin-bottom: .5em;
+}
+
+.ptb-txt{
+  @include typo(.9em,$white, 300);
+  margin-bottom: 2em;
+}
+//pr3
+.p-th-b-title{
+  @include typo(2em, $white, 700);
+  font-family: $lust-1;
+  margin-bottom: .5em;
+}
+
+.p-th-b-txt{
+  @include typo(.9em,$white, 300);
+  margin-bottom: 2em;
+}
+//pr4
+.pfb-title{
+  @include typo(2em, $white, 700);
+  font-family: $lust-1;
+  margin-bottom: .5em;
+}
+
+.pfb-txt{
+  @include typo(.9em,$white, 300);
+  margin-bottom: 2em;
+}
