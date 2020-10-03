@@ -60,6 +60,7 @@
   @include typo(.9em, $white, 300);
   transition: all .3s ease-in-out;
   font-family: $neuro;
+
   &:hover{
     @include daBtn(none, 1px solid $tertiary-color, 1em 2em);
     cursor: pointer;
