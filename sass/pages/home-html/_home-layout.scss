@@ -55,18 +55,10 @@
   z-index: -1;
   margin-top: -20em;
 }
-.ed-reinit-barba{
-  margin-top: 35em !important;
-  @include responsive(phone){
-    margin-top: 0 !important;
-    transform: scale(1.2);
-  }
-}
 
 //el-main-footer
 .el-main-footer{
   clip-path: polygon(51% 3%, 100% 0, 100% 88%, 75% 100%, 0 100%, 0% 60%, 0 7%);
-  // margin-top: -5em;
   @include col(4/4); margin-right: 0;
   height: 40em;
   background: $tertiary-color;
@@ -75,9 +67,3 @@
   justify-content: center;
 }
 
-.ef-reinit-barba{
-  margin-top: -45em !important;
-  @include responsive(phone){
-    margin-top: 0 !important;
-  }
-}
