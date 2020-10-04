@@ -2,7 +2,7 @@
   @include col(4/4); margin-right: 0;
   overflow: hidden;
   margin-bottom: 7em;
-  @include responsive(phone){
+  @include responsive(tab-port){
     margin-bottom: 2em;
   }
 
@@ -13,12 +13,17 @@
     justify-content: center;
     min-height: 45em;
     padding: 2em;
-    @include responsive(phone){
+    @include responsive(tab-port){
       @include stack();
       min-height: 20em;
       position: relative;
       z-index: 10;
       padding: 1em;
+      background: #202124;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 
@@ -29,7 +34,7 @@
     min-height: 45em;
     position: relative;
     z-index: -1;
-    @include responsive(phone){
+    @include responsive(tab-port){
       @include stack();
       background-position-x: 20%;
       min-height: 20em;
@@ -42,7 +47,7 @@
   @include col(4/4); margin-right: 0;
   overflow: hidden;
   margin-bottom: 7em;
-  @include responsive(phone){
+  @include responsive(tab-port){
     margin-bottom: 2em;
   }
   .ptb-left-box{
@@ -52,7 +57,7 @@
     min-height: 45em;
     position: relative;
     z-index: -1;
-    @include responsive(phone){
+    @include responsive(tab-port){
       @include stack();
       min-height: 20em;
       background-position-x: 27%;
@@ -66,10 +71,15 @@
     justify-content: center;
     min-height: 45em;
     padding: 2em;
-    @include responsive(phone){
+    @include responsive(tab-port){
       @include stack();
       min-height: 20em;
       padding: 1em;
+      background: #202124;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 }
@@ -78,7 +88,7 @@
   @include col(4/4); margin-right: 0;
   overflow: hidden;
   margin-bottom: 7em;
-  @include responsive(phone){
+  @include responsive(tab-port){
     margin-bottom: 2em;
   }
 
@@ -89,10 +99,15 @@
     justify-content: center;
     min-height: 45em;
     padding: 2em;
-    @include responsive(phone){
+    @include responsive(tab-port){
       @include stack();
       min-height: 20em;
       padding: 1em;
+      background: #202124;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
   .p-th-b-right-box{
@@ -102,7 +117,7 @@
     min-height: 45em;
     position: relative;
     z-index: -1;
-    @include responsive(phone){
+    @include responsive(tab-port){
       @include stack();
       min-height: 20em;
       background-position-x: 27%;
@@ -114,7 +129,7 @@
   @include col(4/4); margin-right: 0;
   overflow: hidden;
   margin-bottom: 7em;
-  @include responsive(phone){
+  @include responsive(tab-port){
     margin-bottom: 2em;
   }
 
@@ -125,7 +140,7 @@
     min-height: 45em;
     position: relative;
     z-index: -1;
-    @include responsive(phone){
+    @include responsive(tab-port){
       @include stack();
       min-height: 20em;
       background-position-x: 27%;
@@ -140,10 +155,15 @@
     justify-content: center;
     min-height: 45em;
     padding: 2em;
-    @include responsive(phone){
+    @include responsive(tab-port){
       @include stack();
       min-height: 20em;
       padding: 1em;
+      background: #202124;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 }

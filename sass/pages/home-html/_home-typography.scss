@@ -9,7 +9,7 @@
     @include typo(5em, $white, 700);
   }
   @include responsive(tab-port){
-    @include typo(4em, $white, 700);
+    @include typo(4.5em, $white, 700);
   }
   @include responsive(phone){
     @include typo(2.5em, $white, 700);

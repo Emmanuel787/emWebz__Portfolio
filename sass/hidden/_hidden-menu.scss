@@ -166,6 +166,17 @@
     display: none;
   }
 }
+.show-tab-port{
+  @include responsive(tab-port){
+    display: block;
+  }
+}
+.hide-tab-port{
+  @include responsive(tab-port){
+    display: none;
+  }
+}
+
 .show-phone{
   @include responsive(phone){
     display: block;

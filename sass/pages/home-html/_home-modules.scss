@@ -44,7 +44,7 @@
       min-height: 39em;
     }
     @include responsive(tab-port){
-      // background: none;
+      margin-left: 4em;
       width: 0;
     }
     @include responsive(phone){
@@ -146,11 +146,10 @@
     justify-content: space-between;
     z-index: 1;
     @include responsive(tab-port){
-      left: 5em;
-      top: 115%;
-      transform: rotate(-95deg);
+      visibility: hidden;
     }
     @include responsive(phone){
+      visibility: visible;
       transform: rotate(45deg);
       background: #7fffd404;
       padding: 1em;
@@ -182,9 +181,11 @@
           }
           @include responsive(tab-port){
             transform: rotate(90deg);
+            visibility: hidden;
           }
           @include responsive(phone){
             transform: none;
+            visibility: visible;
           }
         }
       }
