@@ -193,3 +193,17 @@
   display: none;
 }
 
+///////////////////@include
+.block {
+    position: relative;
+    width: 580px;
+    height: 460px;
+    margin: 10px 300px 20px 80px;
+}
+
+.i-ti {
+    position: absolute;
+    font-family: "Monument Extended";
+    font-weight: lighter;
+    font-size: 64px;
+}

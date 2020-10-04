@@ -188,3 +188,4 @@ $(".emh-mobile-menu-btn-reverse, .page-reverse, .home-reverse").on("click", func
   $("body").removeClass("mobile-menu-body-anim");
   $(".hidden-mobile-menu").removeClass("mobile-menu-anim");
 });
+
