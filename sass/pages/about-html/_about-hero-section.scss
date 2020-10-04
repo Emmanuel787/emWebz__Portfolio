@@ -7,13 +7,15 @@
   background-position-y: .5em;
   margin-left: 5%;
   margin-top: 5em;
-  height: 45em;
+  min-height: 45em;
   display: flex;
   width: 0%;
   @include responsive(tab-land){
     background-position-y: 0;
   }
   @include responsive(phone){
+    background: url(/resources/img/hero/about-mb.jpg) no-repeat center center;
+    background-size: cover;
     height: 37em;
   }
 }
@@ -43,17 +45,3 @@
     }
   }
 
-// .b-clip-art-design-box{
-//   @include col(4/4); margin-right: 0;
-//   clip-path: polygon(0 88%, 100% 56%, 100% 100%, 0 100%);
-//   position: absolute;
-//   height: 10em;
-//   top: -9em; left: 0;
-//   background: #1d1e20;
-//   @include responsive(tab-land){
-//     top: -10em;
-//   }
-//   @include responsive(tab-land){
-//     top: -10em;
-//   }
-// }
