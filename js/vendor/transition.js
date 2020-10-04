@@ -51,11 +51,7 @@ $(document).ready(function () {
 
             $(window).scrollTop(0);
 
-            //divide////////////////////////////////////////////////////////////////////
-            $('.eb__b1-inner').addClass('eb__b1-reinit-barba');
-            $('.eb__b2-inner').addClass('eb__b2-reinit-barba');
-            $('.eb__b3-inner').addClass('eb__b3-reinit-barba');
-            $('.eb__b4-inner').addClass('eb__b4-reinit-barba');
+
           },
 
           //after the transition this will re-init...//
@@ -74,6 +70,15 @@ $(document).ready(function () {
 
             var rellax = new Rellax(".rellax", {
               center: false,
+            });
+
+            $(function () {
+              $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 1) {
+                  rellax.refresh();
+                }
+              });
             });
 
             //divide////////////////////////////////////////////////////////////////////
@@ -188,6 +193,7 @@ $(document).ready(function () {
 
           async once(data) {
             contentAnimation();
+
 
           },
         },

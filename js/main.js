@@ -189,3 +189,4 @@ $(".emh-mobile-menu-btn-reverse, .page-reverse, .home-reverse").on("click", func
   $(".hidden-mobile-menu").removeClass("mobile-menu-anim");
 });
 
+rellax.refresh();
