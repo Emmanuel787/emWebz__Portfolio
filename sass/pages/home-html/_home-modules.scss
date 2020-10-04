@@ -48,6 +48,8 @@
       width: 0;
     }
     @include responsive(phone){
+      margin-left: 2em;
+      margin-top: -3em;
       min-height: 38em;
     }
 
