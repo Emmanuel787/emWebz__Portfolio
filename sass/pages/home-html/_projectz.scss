@@ -9,8 +9,11 @@
     align-items: center;
     justify-content: center;
     min-height: 45em;
-    // background: #1e1f21;
     padding: 2em;
+    @include responsive(phone){
+      @include span(1/2, $cycle:2);
+      padding: 1em;
+    }
   }
 
   .pob-right-box{
@@ -20,6 +23,10 @@
     min-height: 45em;
     position: relative;
     z-index: -1;
+    @include responsive(phone){
+      @include span(1/2, $cycle:2);
+      background-position-x: 20%;
+    }
   }
 }
 
@@ -35,6 +42,10 @@
     min-height: 45em;
     position: relative;
     z-index: -1;
+    @include responsive(phone){
+      @include span(1/2, $cycle:2);
+      background-position-x: 27%;
+    }
   }
 
   .ptb-right-box{
@@ -43,8 +54,11 @@
     align-items: center;
     justify-content: center;
     min-height: 45em;
-    // background: #1e1f21;
     padding: 2em;
+    @include responsive(phone){
+      @include span(1/2, $cycle:2);
+      padding: 1em;
+    }
   }
 }
 
@@ -59,8 +73,11 @@
     align-items: center;
     justify-content: center;
     min-height: 45em;
-    // background: #1e1f21;
     padding: 2em;
+    @include responsive(phone){
+      @include span(1/2, $cycle:2);
+      padding: 1em;
+    }
   }
   .p-th-b-right-box{
     @include span(2/3);
@@ -69,6 +86,10 @@
     min-height: 45em;
     position: relative;
     z-index: -1;
+    @include responsive(phone){
+      @include span(1/2, $cycle:2);
+      background-position-x: 27%;
+    }
   }
 }
 
@@ -84,6 +105,10 @@
     min-height: 45em;
     position: relative;
     z-index: -1;
+    @include responsive(phone){
+      @include span(1/2, $cycle:2);
+      background-position-x: 27%;
+    }
   }
 
   .pfb-right-box{
@@ -92,8 +117,11 @@
     align-items: center;
     justify-content: center;
     min-height: 45em;
-    // background: #1e1f21;
     padding: 2em;
+    @include responsive(phone){
+      @include span(1/2, $cycle:2);
+      padding: 1em;
+    }
   }
 }
 
@@ -103,42 +131,66 @@
   @include typo(2em, $white, 700);
   font-family: $lust-1;
   margin-bottom: .5em;
+  @include responsive(phone){
+    @include typo(1.5em, $white, 700);
+  }
 }
 
 .plb-txt{
   @include typo(.9em,$white, 300);
   margin-bottom: 2em;
+  @include responsive(phone){
+    @include typo(.8em,$white, 300);
+  }
 }
 //pr2
 .ptb-title{
   @include typo(2em, $white, 700);
   font-family: $lust-1;
   margin-bottom: .5em;
+  @include responsive(phone){
+    @include typo(1.5em, $white, 700);
+  }
 }
 
 .ptb-txt{
   @include typo(.9em,$white, 300);
   margin-bottom: 2em;
+  @include responsive(phone){
+    @include typo(.8em,$white, 300);
+  }
 }
 //pr3
 .p-th-b-title{
   @include typo(2em, $white, 700);
   font-family: $lust-1;
   margin-bottom: .5em;
+  @include responsive(phone){
+    @include typo(1.5em, $white, 700);
+  }
 }
 
 .p-th-b-txt{
   @include typo(.9em,$white, 300);
   margin-bottom: 2em;
+  @include responsive(phone){
+    @include typo(.8em,$white, 300);
+  }
 }
 //pr4
 .pfb-title{
   @include typo(2em, $white, 700);
   font-family: $lust-1;
   margin-bottom: .5em;
+  @include responsive(phone){
+    @include typo(1.5em, $white, 700);
+  }
 }
 
 .pfb-txt{
   @include typo(.9em,$white, 300);
   margin-bottom: 2em;
+  @include responsive(phone){
+    @include typo(.8em,$white, 300);
+  }
 }
