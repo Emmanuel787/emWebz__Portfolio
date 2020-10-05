@@ -189,4 +189,68 @@ $(".emh-mobile-menu-btn-reverse, .page-reverse, .home-reverse").on("click", func
   $(".hidden-mobile-menu").removeClass("mobile-menu-anim");
 });
 
-rellax.refresh();
+//projectz animations
+// p1
+$('.pob-left-box').on('mouseenter', function(){
+  $('.pob-left-box').addClass('plb-anim');
+  $('.pob-left-box').removeClass('plb-anim-reverse');
+
+  $('.pob-right-box').addClass('prb-anim');
+  $('.pob-right-box').removeClass('prb-anim-reverse');
+});
+
+$('.pob-left-box').on('mouseleave', function(){
+  $('.pob-left-box').addClass('plb-anim-reverse');
+  $('.pob-left-box').removeClass('plb-anim');
+
+  $('.pob-right-box').addClass('prb-anim-reverse');
+  $('.pob-right-box').removeClass('prb-anim');
+});
+//p2
+$('.ptb-right-box').on('mouseenter', function () {
+  $('.ptb-left-box').addClass('plb-anim-2');
+  $('.ptb-left-box').removeClass('plb-anim-reverse-2');
+
+  $('.ptb-right-box').addClass('prb-anim-2');
+  $('.ptb-right-box').removeClass('prb-anim-reverse-2');
+});
+
+$('.ptb-right-box').on('mouseleave', function () {
+  $('.ptb-left-box').addClass('plb-anim-reverse-2');
+  $('.ptb-left-box').removeClass('plb-anim-2');
+
+  $('.ptb-right-box').addClass('prb-anim-reverse-2');
+  $('.ptb-right-box').removeClass('prb-anim-2');
+});
+//p3
+$('.p-th-b-left-box').on('mouseenter', function () {
+  $('.p-th-b-left-box').addClass('plb-anim-3');
+  $('.p-th-b-left-box').removeClass('plb-anim-reverse-3');
+
+  $('.p-th-b-right-box').addClass('prb-anim-3');
+  $('.p-th-b-right-box').removeClass('prb-anim-reverse-3');
+});
+
+$('.p-th-b-left-box').on('mouseleave', function () {
+  $('.p-th-b-left-box').addClass('plb-anim-reverse-3');
+  $('.p-th-b-left-box').removeClass('plb-anim-3');
+
+  $('.p-th-b-right-box').addClass('prb-anim-reverse-3');
+  $('.p-th-b-right-box').removeClass('prb-anim-3');
+});
+//p4
+$('.pfb-right-box').on('mouseenter', function () {
+  $('.pfb-left-box').addClass('plb-anim-4');
+  $('.pfb-left-box').removeClass('plb-anim-reverse-4');
+
+  $('.pfb-right-box').addClass('prb-anim-4');
+  $('.pfb-right-box').removeClass('prb-anim-reverse-4');
+});
+
+$('.pfb-right-box').on('mouseleave', function () {
+  $('.pfb-left-box').addClass('plb-anim-reverse-4');
+  $('.pfb-left-box').removeClass('plb-anim-4');
+
+  $('.pfb-right-box').addClass('prb-anim-reverse-4');
+  $('.pfb-right-box').removeClass('prb-anim-4');
+});

@@ -25,7 +25,7 @@
   transition: all .3s ease-in-out;
   font-family: $neuro;
   &:hover{
-    @include daBtn(none, 1px solid $tertiary-color, 1em 2em);
+    @include daBtn($white, 1px solid $white, 1em 2em);
     cursor: pointer;
     @include typo(.9em, $tertiary-color, 300);
   }
@@ -37,9 +37,9 @@
   transition: all .3s ease-in-out;
   font-family: $neuro;
   &:hover{
-    @include daBtn(none, 1px solid $tertiary-color, 1em 2em);
+    @include daBtn($white, 1px solid $white, 1em 2em);
     cursor: pointer;
-    @include typo(.9em, $tertiary-color, 300);
+    @include typo(.9em, #1f1f1f, 300);
   }
 }
 //pr3

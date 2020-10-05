@@ -27,6 +27,7 @@
     }
   }
 
+
   .pob-right-box{
     @include span(2/3);
     background: url(/resources/img/hero/about.jpg) no-repeat center center;
@@ -237,3 +238,285 @@
     @include typo(.8em,$white, 300);
   }
 }
+
+//project-one:start
+.plb-anim{
+  animation: plbAnim 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: plbAnim 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: plbAnim 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: plbAnim 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  // animation-delay: 4s;
+
+  @keyframes plbAnim {
+    0%{
+      background: none;
+    }
+    100%{
+      background: $tertiary-color;
+    }
+  }
+}
+.plb-anim-reverse{
+  animation: plbAnimReverse 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: plbAnimReverse 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: plbAnimReverse 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: plbAnimReverse 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  // animation-delay: 4s;
+
+  @keyframes plbAnimReverse {
+    0%{
+      background: $tertiary-color;
+    }
+    100%{
+      background: none;
+    }
+  }
+}
+
+.prb-anim{
+  animation: prbAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: prbAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: prbAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: prbAnim 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: .2s;
+  @keyframes prbAnim {
+    0%{
+      background: url(/resources/img/hero/about.jpg) no-repeat center center;
+      background-size: cover;
+    }
+    100%{
+      background: url(/resources/img/hero/about.jpg) no-repeat center center;
+      background-size: cover;
+      transform: scale(1.1);
+    }
+  }
+}
+.prb-anim-reverse{
+  animation: prbAnimReverse 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: prbAnimReverse 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: prbAnimReverse 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: prbAnimReverse 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+
+  @keyframes prbAnimReverse {
+    100%{
+      background: url(/resources/img/hero/about.jpg) no-repeat center center;
+      background-size: cover;
+    }
+  }
+}
+//project-one:end
+
+//project-two:start
+.plb-anim-2{
+  animation: ptbAnim2 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: ptbAnim2 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: ptbAnim2 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: ptbAnim2 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        animation-delay: .2s;
+  @keyframes ptbAnim2 {
+    0%{
+      background: url(/resources/img/projectz/p2.jpg) no-repeat center center;
+      background-size: cover;
+    }
+    100%{
+      background: url(/resources/img/projectz/p3.jpg) no-repeat center center;
+      background-size: cover;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.plb-anim-reverse-2{
+  animation: ptbAnimReverse2 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: ptbAnimReverse2 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: ptbAnimReverse2 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: ptbAnimReverse2 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+
+  @keyframes ptbAnimReverse2 {
+    100%{
+      background: url(/resources/img/projectz/p3.jpg) no-repeat center center;
+      background-size: cover;
+      transform: scale(1.1);
+    }
+    100%{
+      background: url(/resources/img/projectz/p2.jpg) no-repeat center center;
+      background-size: cover;
+      transform: scale(1);
+    }
+  }
+}
+
+.prb-anim-2{
+  animation: plbAnim2 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: plbAnim2 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: plbAnim2 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: plbAnim2 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  // animation-delay: 4s;
+
+  @keyframes plbAnim2 {
+    0%{
+      background: none;
+    }
+    100%{
+      background: #d94f60;
+    }
+  }
+}
+.prb-anim-reverse-2{
+  animation: plbAnimReverse2 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: plbAnimReverse2 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: plbAnimReverse2 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: plbAnimReverse2 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  // animation-delay: 4s;
+
+  @keyframes plbAnimReverse2 {
+    0%{
+      background: #d94f60;
+    }
+    100%{
+      background: none;
+    }
+  }
+}
+//project-two:end
+
+//project-three:start
+.plb-anim-3{
+  animation: plbAnim3 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: plbAnim3 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: plbAnim3 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: plbAnim3 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  // animation-delay: 4s;
+
+  @keyframes plbAnim3 {
+    0%{
+      background: none;
+    }
+    100%{
+      background: #283f47;
+    }
+  }
+}
+.plb-anim-reverse-3{
+  animation: plbAnimReverse3 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: plbAnimReverse3 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: plbAnimReverse3 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: plbAnimReverse3 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  // animation-delay: 4s;
+
+  @keyframes plbAnimReverse3 {
+    0%{
+      background: #283f47;
+    }
+    100%{
+      background: none;
+    }
+  }
+}
+
+.prb-anim-3{
+  animation: prbAnim3 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: prbAnim3 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: prbAnim3 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: prbAnim3 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: .2s;
+  @keyframes prbAnim3 {
+    0%{
+      background: url(/resources/img/projectz/p3.jpg) no-repeat center center;
+      background-size: cover;
+    }
+    100%{
+      background: url(/resources/img/hero/about.jpg) no-repeat center center;
+      background-size: cover;
+      transform: scale(1.1);
+    }
+  }
+}
+.prb-anim-reverse-3{
+  animation: prbAnimReverse3 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: prbAnimReverse3 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: prbAnimReverse3 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: prbAnimReverse3 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+
+  @keyframes prbAnimReverse3 {
+    100%{
+      background: url(/resources/img/projectz/p3.jpg) no-repeat center center;
+      background-size: cover;
+    }
+  }
+}
+//project-three:end
+
+//project-four:start
+.plb-anim-4{
+  animation: ptbAnim4 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: ptbAnim4 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: ptbAnim4 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: ptbAnim4 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        animation-delay: .2s;
+  @keyframes ptbAnim4 {
+    0%{
+      background: url(/resources/img/projectz/p4.jpg) no-repeat center center;
+      background-size: cover;
+    }
+    100%{
+      background: url(/resources/img/projectz/p3.jpg) no-repeat center center;
+      background-size: cover;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.plb-anim-reverse-4{
+  animation: ptbAnimReverse4 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: ptbAnimReverse4 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: ptbAnimReverse4 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: ptbAnimReverse4 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+
+  @keyframes ptbAnimReverse4 {
+    100%{
+      background: url(/resources/img/projectz/p3.jpg) no-repeat center center;
+      background-size: cover;
+      transform: scale(1.1);
+    }
+    100%{
+      background: url(/resources/img/projectz/p4.jpg) no-repeat center center;
+      background-size: cover;
+      transform: scale(1);
+    }
+  }
+}
+
+.prb-anim-4{
+  animation: plbAnim4 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: plbAnim4 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: plbAnim4 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: plbAnim4 0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  // animation-delay: 4s;
+
+  @keyframes plbAnim4 {
+    0%{
+      background: none;
+    }
+    100%{
+      background: #2c2627;
+    }
+  }
+}
+.prb-anim-reverse-4{
+  animation: plbAnimReverse4 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    -moz-animation: plbAnimReverse4 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      -webkit-animation: plbAnimReverse4 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        -o-animation: plbAnimReverse4 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  // animation-delay: 4s;
+
+  @keyframes plbAnimReverse4 {
+    0%{
+      background: #d94f60;
+    }
+    100%{
+      background: none;
+    }
+  }
+}
+//project-four:end
