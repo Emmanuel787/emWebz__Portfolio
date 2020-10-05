@@ -28,12 +28,20 @@
   }
 }
 
+//who-we-are
+.who-we-are-section{
+  @include col(4/4); margin-right: 0;
+  clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 97%);
+  height: 45em;
+  background: $white;
+}
+
 //el-first-section-sl
 .portfolio-section{
   @include col(4/4); margin-right: 0;
   clip-path: polygon(0 2%, 100% 0, 100% 100%, 0 97%);
   padding: 10em 0 7em 0;
-  background: #202123;
+  background: #272727;
   overflow: hidden;
   margin-top: 0;
   @include responsive(phone){

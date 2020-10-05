@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 45em;
+    min-height: 30em;
     padding: 2em;
     @include responsive(tab-port){
       @include stack();
@@ -31,7 +31,7 @@
     @include span(2/3);
     background: url(/resources/img/hero/about.jpg) no-repeat center center;
     background-size: cover;
-    min-height: 45em;
+    min-height: 30em;
     position: relative;
     z-index: -1;
     @include responsive(tab-port){
@@ -54,7 +54,7 @@
     @include span(2/3);
     background: url(/resources/img/projectz/p2.jpg) no-repeat center center;
     background-size: cover;
-    min-height: 45em;
+    min-height: 30em;
     position: relative;
     z-index: -1;
     @include responsive(tab-port){
@@ -69,7 +69,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 45em;
+    min-height: 30em;
     padding: 2em;
     @include responsive(tab-port){
       @include stack();
@@ -97,7 +97,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 45em;
+    min-height: 30em;
     padding: 2em;
     @include responsive(tab-port){
       @include stack();
@@ -114,7 +114,7 @@
     @include span(2/3);
     background: url(/resources/img/projectz/p3.jpg) no-repeat center center;
     background-size: cover;
-    min-height: 45em;
+    min-height: 30em;
     position: relative;
     z-index: -1;
     @include responsive(tab-port){
@@ -137,7 +137,7 @@
     @include span(2/3);
     background: url(/resources/img/projectz/p4.jpg) no-repeat center center;
     background-size: cover;
-    min-height: 45em;
+    min-height: 30em;
     position: relative;
     z-index: -1;
     @include responsive(tab-port){
@@ -153,7 +153,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 45em;
+    min-height: 30em;
     padding: 2em;
     @include responsive(tab-port){
       @include stack();
